@@ -1,4 +1,4 @@
-function getMedian(...nums) {  // spread makes it easier, no need for pseudo array
+function getMedian(...nums) {  // rest makes it easier, no need for pseudo array
     const sortedArr = nums.sort((a, b) => a - b);
     const getMiddle = sortedArr.length / 2;
     if (getMiddle % 1 !== 0) {
